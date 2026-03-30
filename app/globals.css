@@ -1,26 +1,58 @@
 @import "tailwindcss";
 
+@theme {
+  /* Brand colors */
+  --color-cream-50: #FDFAF4;
+  --color-cream-100: #F7F0E0;
+  --color-earth-300: #C4A882;
+  --color-earth-500: #8B6E4E;
+  --color-earth-700: #5C4033;
+  --color-earth-900: #2E1F14;
+  --color-moss-400: #7C9A6E;
+  --color-moss-600: #4E7343;
+  --color-gold-300: #D4A843;
+  --color-terracotta: #C4623A;
+
+  /* Typography */
+  --font-serif: var(--font-playfair), Georgia, serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+
+  /* Rounded */
+  --radius-brand: 1rem;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #FDFAF4;
+  --foreground: #5C4033;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Grain texture overlay utility */
+.grain-overlay::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 128px 128px;
+  mix-blend-mode: multiply;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+/* Ensure content inside grain-overlay sits above the pseudo-element */
+.grain-overlay > * {
+  position: relative;
+  z-index: 2;
 }

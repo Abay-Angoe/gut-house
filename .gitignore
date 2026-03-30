@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# user-submitted data
+/data/contact-submissions
+/data/newsletter-signups
