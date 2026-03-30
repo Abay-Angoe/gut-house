@@ -24,7 +24,7 @@ export default function Footer() {
               href="/"
               className="font-serif text-xl font-bold text-cream-50 hover:text-gold-300 transition-colors"
             >
-              Ferment & Field
+              The Gut House
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-earth-300 max-w-xs">
               Small-batch living foods crafted to nourish your gut and restore your natural vitality.
@@ -93,7 +93,7 @@ export default function Footer() {
 
         <div className="mt-12 border-t border-earth-700 pt-8 flex flex-col items-center justify-between gap-4 sm:flex-row">
           <p className="text-xs text-earth-500">
-            &copy; {new Date().getFullYear()} Ferment & Field. All rights reserved.
+            &copy; {new Date().getFullYear()} The Gut House. All rights reserved.
           </p>
           <p className="text-xs text-earth-500">
             Made with care &mdash; small batch, always.

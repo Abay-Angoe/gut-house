@@ -1,6 +1,6 @@
 @AGENTS.md
 
-# Ferment & Field — Project Overview
+# The Gut House — Project Overview
 
 Holistic gut health brand website. Sells sauerkraut, raw honey, cold-pressed juices, and wellness shots.
 Built with Next.js 16 (App Router), TypeScript, Tailwind CSS v4, Radix UI headless primitives, pnpm.
@@ -104,7 +104,7 @@ wellness/
 
 ## Design System
 
-**Palette — "Ferment & Field"** (defined as CSS custom properties in `app/globals.css`):
+**Palette — "The Gut House"** (defined as CSS custom properties in `app/globals.css`):
 
 | Token | Hex | Usage |
 |---|---|---|

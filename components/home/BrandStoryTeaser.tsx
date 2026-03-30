@@ -26,7 +26,7 @@ export default function BrandStoryTeaser() {
           a calling.&rdquo;
         </blockquote>
         <p className="mt-6 text-earth-300 text-sm">
-          &mdash; Founders, Ferment & Field
+          &mdash; Founders, The Gut House
         </p>
         <div className="mt-10">
           <Link

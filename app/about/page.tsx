@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Our Story",
   description:
-    "Learn how Ferment & Field started in a kitchen and grew into a small-batch living foods brand rooted in tradition and transparency.",
+    "Learn how The Gut House started in a kitchen and grew into a small-batch living foods brand rooted in tradition and transparency.",
 };
 
 const values = [
@@ -51,7 +51,7 @@ export default function AboutPage() {
               </h1>
               <div className="mt-6 space-y-4 text-earth-700 leading-relaxed">
                 <p>
-                  Ferment & Field began in a small flat in Edinburgh, where our
+                  The Gut House began in a small flat in Edinburgh, where our
                   founders — frustrated by the lifeless, vinegar-soaked products
                   on supermarket shelves — started fermenting their own
                   sauerkraut. What started as a weekend experiment turned into
@@ -68,7 +68,7 @@ export default function AboutPage() {
             <div className="relative h-80 lg:h-[480px] w-full overflow-hidden rounded-2xl">
               <Image
                 src="/images/brand/founders.jpg"
-                alt="Ferment & Field founders in the kitchen"
+                alt="The Gut House founders in the kitchen"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"

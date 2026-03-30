@@ -4,7 +4,7 @@ import ContactForm from "@/components/contact/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Get in touch with Ferment & Field — wholesale enquiries, orders, or just to say hello.",
+  description: "Get in touch with The Gut House — wholesale enquiries, orders, or just to say hello.",
 };
 
 const faqs = [
@@ -71,11 +71,11 @@ export default function ContactPage() {
               <ul className="space-y-3 text-sm text-earth-700">
                 <li>
                   <span className="font-medium text-earth-500 uppercase tracking-wide text-xs">Email</span>
-                  <p className="mt-0.5">hello@fermentandfield.co.uk</p>
+                  <p className="mt-0.5">hello@theguthouse.co.uk</p>
                 </li>
                 <li>
                   <span className="font-medium text-earth-500 uppercase tracking-wide text-xs">Instagram</span>
-                  <p className="mt-0.5">@fermentandfield</p>
+                  <p className="mt-0.5">@theguthouse</p>
                 </li>
                 <li>
                   <span className="font-medium text-earth-500 uppercase tracking-wide text-xs">Based in</span>

@@ -18,13 +18,13 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: {
-    default: "Ferment & Field — Gut Health, Naturally",
-    template: "%s | Ferment & Field",
+    default: "The Gut House — Gut Health, Naturally",
+    template: "%s | The Gut House",
   },
   description:
     "Small-batch fermented foods, raw honey, cold-pressed juices, and wellness shots crafted to nourish your gut and energise your life.",
   openGraph: {
-    siteName: "Ferment & Field",
+    siteName: "The Gut House",
     type: "website",
   },
 };

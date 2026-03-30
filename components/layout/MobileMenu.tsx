@@ -38,7 +38,7 @@ export default function MobileMenu({ open, onClose, links }: MobileMenuProps) {
         {/* Header */}
         <div className="flex items-center justify-between px-6 py-4 border-b border-earth-300/40">
           <span className="font-serif text-lg font-bold text-earth-900">
-            Ferment & Field
+            The Gut House
           </span>
           <button
             onClick={onClose}

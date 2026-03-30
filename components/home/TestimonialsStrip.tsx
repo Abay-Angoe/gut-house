@@ -15,7 +15,7 @@ const testimonials = [
   },
   {
     quote:
-      "As a nutritionist I'm very picky about fermented foods. Ferment & Field genuinely uses traditional methods — you can taste the difference immediately.",
+      "As a nutritionist I'm very picky about fermented foods. The Gut House genuinely uses traditional methods — you can taste the difference immediately.",
     author: "Dr. Priya K.",
     location: "Manchester",
   },
